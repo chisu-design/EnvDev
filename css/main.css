@@ -490,3 +490,17 @@ textarea.form-control {
     padding: 0px;
 }
 
+.photo-gallery .image {
+    margin: 10px 0px;
+}
+
+.photo-gallery > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.photo-gallery img {
+    width: 100%;
+}
